@@ -1,10 +1,10 @@
-package br.ufpb.dcx.kleyton;
+package exercicio1;
 
 public class OlaMundo {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        br.ufpb.dcx.kleyton.Aluno aluno = new br.ufpb.dcx.kleyton.Aluno("Kleyton", "2025001", new double[] {8.0, 7.5, 9.0});
+        Aluno aluno = new Aluno("Kleyton", "2025001", new double[] {8.0, 7.5, 9.0});
         System.out.println(aluno);
     }
 }
